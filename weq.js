@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
             var content = xhr.responseText.trim().toLowerCase();
             if (content === "no") {
                 // Set the body's innerHTML to the desired HTML content
-                document.body.innerHTML = "<h1>Error!</h1><p>:)</p>";
+                document.body.innerHTML = "<h1>Error!</h1><p>Restored backup is damaged. Webflow is under maintenance.</p>";
             }
         }
     };
